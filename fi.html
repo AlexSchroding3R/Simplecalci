@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="ca.css">
+
+  <title>Simple calculator</title>
+</head>
+
+<body>
+  <div class="Layout">
+    <input type="text" id="sp">
+    <input type="button" class="l" value="1" onclick="ko(this.value)">
+    <input type="button" class="l" value="2" onclick=" ko(this.value)">
+    <input type="button" class="ls" value="+" onclick="ko(this.value) ; add();">
+    <input type="button" class="la" value="-" onclick="ko(this.value) ">
+    <input type="button" class="l" value="3" onclick="ko(this.value) ">
+    <input type="button" class="l" value="4" onclick="ko(this.value) ">
+    <input type="button" class="lr" value="x" onclick="ko(this.value) ; Multiply();">
+    <input type="button" class="lc" value="/" onclick="ko(this.value) ">
+    <input type="button" class="l" value="5" onclick=" ko(this.value)">
+    <input type="button" class="l" value="6" onclick="ko(this.value) ">
+    <input type="button" class="l" value="7" onclick="ko(this.value) ">
+    <input type="button" class="l" value="8" onclick="ko(this.value) ">
+    <input type="button" class="l" value="9" onclick="ko(this.value) ">
+    <input type="button" class="l" value="0" onclick="ko(this.value) ">
+    <input type="button" class="lq" value="=" onclick="Equal(); ">
+    <input type="button" class="lz" id="clr" value="DEL" onclick="jo()">
+
+
+  </div>
+  <script src="cal.js"></script>
+</body>
+
+</html>

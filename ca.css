@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+body{
+    background-color: blueviolet;
+}
+.Layout{
+
+    display: grid;
+    position: relative;
+    height: 498px;
+    width: 461px;
+    margin: 10% 34%;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    grid-template-columns: 115px 115px 115px 115px;
+    grid-template-rows: 120px auto;
+    box-shadow: 20px 20px 10px rgb(59, 59, 59);
+    transform: rotatez(2deg);
+    
+   
+    
+    
+       
+}
+.Layout > input {
+
+    text-align: center;
+    padding: 30px;
+    border: 1px solid lightgreen;
+    font-size: 27px;
+    border-radius: 20px;
+    border-style: double;
+    
+    
+}
+
+
+#sp{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+input[type=button]:hover{
+    background-color: rgb(244, 224, 150);
+}
